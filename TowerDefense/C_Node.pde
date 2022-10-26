@@ -5,4 +5,13 @@
 
 class Node {
   
+  float x, y, vx, vy;
+  
+  Node(float X, float Y, float Vx, float Vy) {
+    x = X;
+    y = Y;
+    vx = Vx;
+    vy = Vy;
+  }
+  
 }

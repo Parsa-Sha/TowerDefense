@@ -18,6 +18,9 @@ color black = #000000;
 Button start;
 
 //Collections of objects
+Node[] nodes;
+ArrayList<Mob> mobs = new ArrayList<Mob>();
+
 
 //Images and Gifs
 
@@ -80,4 +83,6 @@ void makeButtons() {
 
 void makeNodes() {
   //Plot the nodes on the map
+  nodes = new Node[10];
+
 }
